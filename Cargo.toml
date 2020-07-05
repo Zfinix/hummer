@@ -1,0 +1,7 @@
+[workspace]
+members = ["native/hummer-ffi"]
+
+[profile.release]
+lto = true
+codegen-units = 1
+debug = true # turn it off if you want.
